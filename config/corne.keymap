@@ -85,7 +85,7 @@
             label = "ARCHL10";
         };
 
-        archl3: archl3 {
+        arch3: archl3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_WIN &kp NUMBER_3>;
@@ -114,7 +114,7 @@
         layer_4 {
             bindings = <
 &trans  &kp N1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8   &kp N9    &kp N0  &kp BACKSPACE
-&trans  &archL1  &archL2       &archl3       &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
+&trans  &archL1  &archL2       &arch3        &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
 &trans  &trans   &trans        &trans        &trans        &trans          &trans        &trans   &trans   &trans    &trans  &trans
                                &trans        &trans        &trans          &trans        &trans   &trans
             >;
