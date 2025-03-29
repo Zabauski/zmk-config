@@ -85,11 +85,11 @@
             label = "ARCHL10";
         };
 
-        arch3: archl3 {
+        ssswwq: ssswwq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp LEFT_WIN &kp NUMBER_3>;
-            label = "ARCHL3";
+            label = "SSSWWQ";
         };
     };
 
@@ -104,17 +104,17 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E     &kp R  &kp T          &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BSPC
-&kp ESCAPE      &kp A  &kp S  &kp D     &kp F  &kp G          &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp APOS
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C     &kp V  &kp B          &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                              &kp LGUI  &mo 2  &lt 1 ENTER    &kp SPACE  &mo 3  &kp LEFT_ALT
+&kp TAB         &kp Q  &kp W  &kp E          &kp R  &kp T          &kp Y      &kp U  &kp I         &kp O    &kp P     &kp BSPC
+&kp ESCAPE      &kp A  &kp S  &kp D          &kp F  &kp G          &kp H      &kp J  &kp K         &kp L    &kp SEMI  &kp APOS
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C          &kp V  &kp B          &kp N      &kp M  &kp COMMA     &kp DOT  &kp FSLH  &kp RSHFT
+                              &hm LGUI CAPS  &mo 2  &lt 1 ENTER    &kp SPACE  &mo 3  &kp LEFT_ALT
             >;
         };
 
         layer_4 {
             bindings = <
 &trans  &kp N1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8   &kp N9    &kp N0  &kp BACKSPACE
-&trans  &archL1  &archL2       &arch3        &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
+&trans  &archL1  &archL2       &ssswwq       &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
 &trans  &trans   &trans        &trans        &trans        &trans          &trans        &trans   &trans   &trans    &trans  &trans
                                &trans        &trans        &trans          &trans        &trans   &trans
             >;
