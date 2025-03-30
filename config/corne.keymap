@@ -32,63 +32,63 @@
         archL1: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_1>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_1>;
             label = "NEW_MACRO";
         };
 
         archL2: archL2 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_2>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_2>;
             label = "ARCHL2";
         };
 
         archL4: archL3 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_4>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_4>;
             label = "ARCHL3";
         };
 
         archL5: archL5 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp N5>;
+            bindings = <&sk LEFT_WIN &kp N5>;
             label = "ARCHL5";
         };
 
         archL6: archL6 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_6>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_6>;
             label = "ARCHL6";
         };
 
         archL7: archL7 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp N7>;
+            bindings = <&sk LEFT_WIN &kp N7>;
             label = "ARCHL7";
         };
 
         archL8: archL8 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_8>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_8>;
             label = "ARCHL8";
         };
 
         archL10: archL10 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_9>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_9>;
             label = "ARCHL10";
         };
 
-        ssswwq: ssswwq {
+        acrhLAy3: ssswwq {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_WIN &kp NUMBER_3>;
+            bindings = <&sk LEFT_WIN &kp NUMBER_3>;
             label = "SSSWWQ";
         };
     };
@@ -114,7 +114,7 @@
         layer_1 {
             bindings = <
 &trans  &kp N1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8   &kp N9    &kp N0  &kp BACKSPACE
-&trans  &archL1  &archL2       &ssswwq       &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
+&trans  &archL1  &archL2       &acrhLAy3     &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
 &trans  &trans   &trans        &trans        &trans        &trans          &trans        &trans   &trans   &trans    &trans  &trans
                                &trans        &trans        &trans          &trans        &trans   &trans
             >;
