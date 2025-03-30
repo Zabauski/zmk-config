@@ -91,6 +91,69 @@
             bindings = <&sk LEFT_WIN &kp NUMBER_3>;
             label = "SSSWWQ";
         };
+
+        br1: br1 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp NUMBER_1>;
+            label = "BR1";
+        };
+
+        br2: br2 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp NUMBER_2>;
+            label = "BR2";
+        };
+
+        br3: br3 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp NUMBER_3>;
+            label = "BR3";
+        };
+
+        br4: br4 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp NUMBER_4>;
+            label = "BR4";
+        };
+
+        br5: br5 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp N5>;
+            label = "BR5";
+        };
+
+        br6: br6 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp NUMBER_6>;
+            label = "BR6";
+        };
+
+        br7: br7 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp N7>;
+            label = "BR7";
+        };
+
+        br8: br8 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp N8>;
+            label = "BR8";
+        };
+
+        br9: br9 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&sk LEFT_ALT &kp N9>;
+            label = "BR9";
+        };
     };
 
     keymap {
@@ -115,7 +178,7 @@
             bindings = <
 &trans  &kp N1   &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5    &kp NUMBER_6  &kp N7   &kp N8   &kp N9    &kp N0  &kp BACKSPACE
 &trans  &archL1  &archL2       &acrhLAy3     &archL4       &archL5         &archL6       &archL7  &archL8  &archL10  &trans  &trans
-&trans  &trans   &trans        &trans        &trans        &trans          &trans        &trans   &trans   &trans    &trans  &trans
+&trans  &br1     &br2          &br3          &br4          &br5            &br6          &br7     &br7     &br9      &trans  &trans
                                &trans        &trans        &trans          &trans        &trans   &trans
             >;
         };
